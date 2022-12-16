@@ -4,6 +4,44 @@
     box-sizing: border-box;
     font-family: "Lato",sans-serif;
 }
-header{
+nav{
+    top: 0;
+    margin: 0 auto;
+    text-align: center;
     background-color: #0a58ca;
+    opacity: 0.9;
+    width: 100%;
+    position: fixed;
+}
+nav ul{
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: #fff;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: darkblue;
+}
+nav img{
+     width: 150px;
+ }
+main{
+    margin-top: 12rem;
+    /* https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
+    justify-content: center;
+}
+#wie-ben-ik{
+    margin:0 auto;
+    text-align: center;
+}
+main h1, main h3, main p{
+    margin: 3rem;
 }
