@@ -36,7 +36,6 @@ nav img{
 main{
     margin-top: 12rem;
     /* https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
-    justify-content: center;
 }
 #wie-ben-ik{
     margin:0 auto;
@@ -44,4 +43,16 @@ main{
 }
 main h1, main h3, main p{
     margin: 3rem;
+}
+.persoonlijke-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.info{
+    width: 300px;
+    padding: 30px;
+    color: darkblue;
+    background-color: #d1d1e1;
+    border-radius: 20px;
 }
