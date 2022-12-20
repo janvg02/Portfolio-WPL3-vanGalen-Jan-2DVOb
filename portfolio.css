@@ -44,15 +44,29 @@ main{
 main h1, main h3, main p{
     margin: 3rem;
 }
-.persoonlijke-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
+
 .info{
     width: 300px;
     padding: 30px;
     color: darkblue;
     background-color: #d1d1e1;
     border-radius: 20px;
+}
+.persoonlijke-info, .andere-info{
+    padding-top: 50px;
+    margin: 50px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+ }
+.andere-info img{
+    height: 500px;
+}
+#projecten{
+    margin:0 auto;
+    text-align: center;
+}
+#projecten img{
+    justify-content: space-evenly;
+    width: 80%;
 }
