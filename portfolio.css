@@ -9,7 +9,9 @@ nav{
     margin: 0 auto;
     text-align: center;
     background-color: #0a58ca;
-    opacity: 0.9;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    opacity: 0.95;
     width: 100%;
     position: fixed;
 }
@@ -63,10 +65,18 @@ main h1, main h3, main p{
     height: 500px;
 }
 #projecten{
+    color: white;
+    padding: 500px 0 900px 0;
     margin:0 auto;
     text-align: center;
+    background-image: linear-gradient(white,#0a58ca,#0a58ca, white);
 }
-#projecten img{
+#projecten img, #logos-en-ontwerpen img{
     justify-content: space-evenly;
     width: 80%;
+}
+#logos-en-ontwerpen{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
