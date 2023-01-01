@@ -41,6 +41,7 @@ main{
 }
 #wie-ben-ik{
     margin:0 auto;
+    padding-top: 300px;
     text-align: center;
 }
 main h1, main h3, main p{
@@ -66,17 +67,27 @@ main h1, main h3, main p{
 }
 #projecten{
     color: white;
-    padding: 500px 0 900px 0;
+    padding: 300px 0 900px 0;
     margin:0 auto;
     text-align: center;
+    justify-content: center;
     background-image: linear-gradient(white,#0a58ca,#0a58ca, white);
 }
-#projecten img, #logos-en-ontwerpen img{
-    justify-content: space-evenly;
-    width: 80%;
-}
-#logos-en-ontwerpen{
+#photoshop, #logos-en-ontwerpen{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction:row ;
+    flex-wrap: wrap;
+justify-content: space-evenly;
 }
+#photoshop img{
+    width: 550px;
+    height: 350px;
+    margin: 20px;
+}
+#logos-en-ontwerpen img{
+    width: 550px;
+    height: 990px;
+    margin: 20px;
+}
+
+
