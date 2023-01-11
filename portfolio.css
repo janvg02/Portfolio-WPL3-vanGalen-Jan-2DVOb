@@ -41,7 +41,7 @@ main{
 }
 #wie-ben-ik{
     margin:0 auto;
-    padding-top: 300px;
+    padding-top: 250px;
     text-align: center;
 }
 main h1, main h3, main p{
@@ -67,36 +67,26 @@ main h1, main h3, main p{
 }
 #projecten{
     color: white;
-    padding: 300px 0 900px 0;
+    padding: 250px 0 900px 0;
     margin:0 auto;
     text-align: center;
-    justify-content: center;
     background-image: linear-gradient(white,#0a58ca,#0a58ca, white);
 }
 #photoshop, #logos-en-ontwerpen{
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
+    display: inline-block;
     flex-direction:row ;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
-#photoshop img{
-    width: 550px;
-    height: 350px;
-    margin: 20px;
+#photoshop img, #logos-en-ontwerpen img{
+    margin: 0 auto;
+    padding: 20px;
 }
-#logos-en-ontwerpen img{
-    width: 550px;
-    height: 1100px;
-    margin: 20px;
+#opdrachten{
+    padding-top: 180px;
 }
 #opdrachten h1, h2{
     text-align: center;
-}
-main section{
-    height: 650px;
-    margin-top: 50px;
-
 }
 main section article{
     width: 80%;
@@ -118,5 +108,9 @@ main section article ul li,main section article ol li{
 ::-webkit-scrollbar{
     display: none;
     /*https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
+}
+#eindreflectie{
+    background-image: linear-gradient(white, #0a58ca,#0a58ca,#0a58ca);
+    margin-top: 50px;
 }
 
