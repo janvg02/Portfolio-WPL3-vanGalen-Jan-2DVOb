@@ -112,5 +112,12 @@ main section article ul li,main section article ol li{
 #eindreflectie{
     background-image: linear-gradient(white, #0a58ca,#0a58ca,#0a58ca);
     margin-top: 50px;
+    padding-top: 250px;
+    text-align: center;
+}
+.pdf-eindreflectie{
+    margin: 0 auto;
+    width: 50%;
+    height: 300;
 }
 
