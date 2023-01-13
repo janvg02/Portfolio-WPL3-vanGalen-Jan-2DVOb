@@ -26,7 +26,7 @@ nav ul li{
 nav ul li a{
     color: #fff;
     padding: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-decoration: none;
 }
 nav ul li a:hover{
@@ -80,7 +80,7 @@ main h1, main h3, main p{
 }
 #photoshop img, #logos-en-ontwerpen img{
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
 }
 #opdrachten{
     padding-top: 180px;
