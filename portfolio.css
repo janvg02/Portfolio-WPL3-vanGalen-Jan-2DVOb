@@ -95,6 +95,7 @@ main section article{
     height: 500px;
     margin: 0 auto;
     overflow: auto;
+    font-size: x-large;
 }
 main section h2{
     padding: 50px;
@@ -110,14 +111,45 @@ main section article ul li,main section article ol li{
     /*https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
 }
 #eindreflectie{
-    background-image: linear-gradient(white, #0a58ca,#0a58ca,#0a58ca);
+    background-image: linear-gradient(white,#0a58ca,#0a58ca);
     margin-top: 50px;
     padding-top: 250px;
     text-align: center;
+    color: white;
 }
 .pdf-eindreflectie{
     margin: 0 auto;
     width: 50%;
-    height: 300;
+    height: 300px;
 }
+footer{
+    background-color: #0a58ca;
+    color: white;
+    padding-bottom: 50px;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.gegevens ul, .sociale-media ul{
+    list-style-type: none;
+}
+.gegevens ul li{
+    font-size: x-large;
+}
+.sociale-media ul{
+    display: flex;
+    flex-direction: row;
+}
+.sociale-media ul li{
+padding: 50px
+}
+footer .sociale-media ul li a{
+    color: white;
+}
+footer .sociale-media ul li a:hover {
+color: darkblue;
+}
+
 
