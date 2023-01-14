@@ -36,56 +36,67 @@ nav img{
      width: 150px;
  }
 main{
+    width: 100%;
     margin-top: 12rem;
     /* https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
 }
-#wie-ben-ik{
+#container__wie-ben-ik{
     margin:0 auto;
-    padding-top: 250px;
+    padding-top: 150px;
     text-align: center;
 }
 main h1, main h3, main p{
     margin: 3rem;
 }
 
-.info{
+.container__wie-ben-ik__item-1{
     width: 300px;
     padding: 30px;
     color: darkblue;
     background-color: #d1d1e1;
     border-radius: 20px;
 }
-.persoonlijke-info, .andere-info{
+.container__wie-ben-ik-info__item, .container__wie-ben-ik-andere-info__item{
     padding-top: 50px;
     margin: 50px;
      display: flex;
      flex-direction: row;
      justify-content: space-evenly;
  }
-.andere-info img{
+.container__wie-ben-ik-andere-info__item img{
     height: 500px;
 }
-#projecten{
+#container__projecten{
     color: white;
     padding: 250px 0 900px 0;
     margin:0 auto;
     text-align: center;
-    background-image: linear-gradient(white,#0a58ca,#0a58ca, white);
+    background-image: linear-gradient(white,#0a58ca,#0a58ca,white);
+    /*https://www.w3schools.com/css/css3_gradients.asp*/
 }
-#photoshop, #logos-en-ontwerpen{
+
+#container__projecten__item-1, #container__projecten__item-2{
     display: inline-block;
     flex-direction:row ;
     flex-wrap: wrap;
     margin: 0 auto;
 }
-#photoshop img, #logos-en-ontwerpen img{
+#container__projecten__item-1 img, #container__projecten__item-2 img{
     margin: 0 auto;
-    padding: 10px;
+    padding: 30px;
+    width: 30%;
+    border-radius: 5px;
 }
-#opdrachten{
+.container__projecten__item-2-ontwerpen, .container__projecten__item-2-logos{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+#container__opdrachten{
     padding-top: 180px;
+    margin: 0 auto;
 }
-#opdrachten h1, h2{
+#container__opdrachten h1, h2{
     text-align: center;
 }
 main section article{
@@ -110,46 +121,60 @@ main section article ul li,main section article ol li{
     display: none;
     /*https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
 }
-#eindreflectie{
+#container__eindreflectie{
     background-image: linear-gradient(white,#0a58ca,#0a58ca);
+    /*https://www.w3schools.com/css/css3_gradients.asp*/
     margin-top: 50px;
-    padding-top: 250px;
-    text-align: center;
+    padding: 250px 0 150px 0;
     color: white;
 }
-.pdf-eindreflectie{
-    margin: 0 auto;
-    width: 50%;
-    height: 300px;
+#container__eindreflectie h1{
+    text-align: center;
+}
+#container__eindreflectie section article{
+    height: 1500px;
+}
+#container__eindreflectie section article h4 {
+    margin-top: 50px;
 }
 footer{
     background-color: #0a58ca;
-    color: white;
     padding-bottom: 50px;
+    color: #0a58ca;
 }
-.contact{
+.container__contact{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.gegevens ul, .sociale-media ul{
+.container__contact__item-1 ul, .container__contact__item-2 ul{
     list-style-type: none;
 }
-.gegevens ul li{
+.container__contact__item-1 ul li{
     font-size: x-large;
+    color: white;
+
 }
-.sociale-media ul{
+.container__contact__item-2 ul{
     display: flex;
     flex-direction: row;
 }
-.sociale-media ul li{
-padding: 50px
+.container__contact__item-2 ul li{
+margin: 50px
 }
-footer .sociale-media ul li a{
+footer .container__contact__item-2 ul li a{
     color: white;
 }
-footer .sociale-media ul li a:hover {
+footer .container__contact__item-2 ul li a:hover {
 color: darkblue;
 }
-
+@media screen and (max-width: 414px){
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+    nav ul li a{
+    display: flex;
+}
+}
 
