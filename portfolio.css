@@ -199,15 +199,32 @@ color: darkblue;
         padding: 0;
     }
 }
-@media screen and (max-width: 414px){
-    nav, main{
+@media screen and (max-width:415px){
+    nav ul li a img{
+        width: 100px;
+        margin: 0 auto;
+    }
+    nav ul li a p{
+        display: none;
+    }
+    header,nav, footer, main{
+        padding: 0;
         width: 414px;
     }
-    footer{
-        display:none ;
+    main{
+        padding-top: 0;
+        margin-top: 0;
     }
-    .container__wie-ben-ik-andere-info__item-1{
-        width: 414px;
+.container__contact__item-1,  {
+        width: 200px;
+    margin: 0;
+    }
+  article .container__wie-ben-ik__item-1 article h4,.container__wie-ben-ik__item-1 article ul li{
+        width: 50px;
+    }
+    .container__contact__item-2{
+        width: 0;
+        display: none;
     }
 }
 
