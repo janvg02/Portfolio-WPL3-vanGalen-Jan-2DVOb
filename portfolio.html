@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Portfolio-vanGalen-Jan</title>
+    <title>Wie ben ik?</title>
     <link rel="stylesheet" href="bootstrap-grid.min.css">
     <link rel="stylesheet" href="bootstrap-reboot.css">
-    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,29 +16,29 @@
 <body>
 <header>
     <nav>
-        <ul>
-            <li><a href="#container__wie-ben-ik"><p>Wie ben ik</p></a></li>
-            <li><a href="#container__projecten"><p>Projecten</p></a></li>
-            <li><a href="#"> <img src="assets/jvg-logo.png" alt="logo"></a></li>
-            <li><a href="#container__opdrachten"><p>Opdrachten</p></a></li>
-            <li><a href="#container__eindreflectie"><p>Eindreflectie</p></a></li>
+        <ul class="row justify-content-center align-content-center">
+            <li class="col-xl-2"><a href="#container__wie-ben-ik"><p>Wie ben ik</p></a></li>
+            <li class="col-xl-2"><a href="projecten.html"><p>Projecten</p></a></li>
+            <li class="col-xl-2 justify-content-center"><a href="#"> <img src="assets/jvg-logo.png" alt="logo"></a></li>
+            <li class="col-xl-2"><a href="opdrachten.html"><p>Opdrachten</p></a></li>
+            <li class="col-xl-2"><a href="eindreflectie.html"><p>Eindreflectie</p></a></li>
         </ul>
     </nav>
 </header>
 <main>
-    <div id="container__wie-ben-ik">
-        <h1>Wie ben ik?</h1>
-        <img src="assets/profile-pic.png" alt="pp">
-        <h3>Jan van Galen<br>20 jaar<br>Genk</h3>
-        <div class="container__wie-ben-ik-info__item">
-            <article class="container__wie-ben-ik__item-1">
+    <div class="container__wie-ben-ik">
+        <h1 class="row justify-content-center">Wie ben ik?</h1>
+        <img class="row" src="assets/profile-pic.png" alt="pp">
+        <h3 class="row justify-content-center pt-5">Jan van Galen<br>20 jaar<br>Genk</h3>
+        <div class="container__wie-ben-ik-info__item row justify-content-evenly">
+            <div class="container__wie-ben-ik__item-1 col-xl-3">
                 <h4>Talen</h4>
                 <ul>
                     <li>Nederlands</li>
                     <li>Engels</li>
                 </ul>
-            </article>
-            <article class="container__wie-ben-ik__item-1">
+            </div>
+            <div class="container__wie-ben-ik__item-1 col-xl-3">
                 <h4>Opleidingen</h4>
                 <ul>
                     <li>Sociale- en Technische
@@ -49,48 +49,32 @@
                     </li>
                     <li> Digitale vormgeving</li>
                 </ul>
-            </article>
-            <article class="container__wie-ben-ik__item-1">
+            </div>
+            <div class="container__wie-ben-ik__item-1 col-xl-3">
                 <h4>Hobby's</h4>
                 <ul>
                     <li>Chiro</li>
                 </ul>
-            </article>
         </div>
-        <div class="container__wie-ben-ik-andere-info__item">
-            <article class="container__wie-ben-ik-andere-info__item-1">
+        <div class="container__wie-ben-ik-andere-info__item pt-5 row justify-content-evenly">
+            <div class="container__wie-ben-ik-andere-info__item-1 pt-5 col-xl-4">
                 <h4>Kenmerken</h4>
                 <img src="assets/kenmerken.png" alt="kenmerken">
-            </article>
-            <article class="container__wie-ben-ik-andere-info__item-1">
+            </div>
+            <div class="container__wie-ben-ik-andere-info__item-1 pt-5 col-xl-4">
                 <h4>Skills</h4>
                 <img src="assets/skills.png" alt="skills">
-            </article>
+            </div>
         </div>
     </div>
-
-
-
+    </div>
 </main>
 <footer>
-    <div class="container__contact">
-    <div class="container__contact__item-1">
-        <ul>
-            <li>Jan van Galen</li>
-            <li>Student PXL-digital</li>
-            <li>Digitale vormgeving</li>
-            <li>jan.vangalen@student.pxl.be</li>
-            <li>(+32) 468 16 62 17</li>
-        </ul>
+<div class="container-fluid__footer">
+    <div class="container__footer-inhoud row">
+
     </div>
-    <div class="container__contact__item-2">
-       <ul>
-           <li><a href="https://www.linkedin.com/in/jan-van-galen-87b156249/"><i class="fa-brands fa-linkedin-in fa-3x"></i></a></li>
-           <li><a href="https://www.facebook.com/jan.vangalen.334/"><i class="fa-brands fa-facebook-f fa-3x"></i></a></li>
-           <li><a href="https://www.instagram.com/jan.vngln/"><i class="fa-brands fa-instagram fa-3x"></i></a></li>
-       </ul>
-    </div>
-    </div>
+</div>
 </footer>
 </body>
 </html>

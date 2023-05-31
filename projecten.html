@@ -3,28 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Projecten</title>
+    <link rel="stylesheet" href="bootstrap-grid.min.css">
+    <link rel="stylesheet" href="bootstrap-reboot.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@700&display=swap"
+          rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6ec08d13e4.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div id="container__projecten">
-    <h1>Projecten</h1>
-    <div id="container__projecten__item-1">
-        <img src="assets/mountains.jpg" alt="mountains">
-        <img src="assets/wild.jpg" alt="wild">
-        <img src="assets/man.jpg" alt="man">
-        <img src="assets/big-city-life.jpg" alt="big-city-life">
-    </div>
-    <div id="container__projecten__item-2">
-        <div class="container__projecten__item-2-logos">
-            <h1>Logo's</h1>
-            <img src="assets/jvg-design.png" alt="jvg-design">
-            <img src="assets/pxl-logo.jpg" alt="pxl-logo">
+<header>
+    <nav>
+        <ul class="row justify-content-center align-content-center">
+            <li class="col-xl-2"><a href="portfolio.html"><p>Wie ben ik</p></a></li>
+            <li class="col-xl-2"><a href="#"><p>Projecten</p></a></li>
+            <li class="col-xl-2 justify-content-center"><a href="#"> <img src="assets/jvg-logo.png" alt="logo"></a></li>
+            <li class="col-xl-2"><a href="opdrachten.html"><p>Opdrachten</p></a></li>
+            <li class="col-xl-2"><a href="eindreflectie.html"><p>Eindreflectie</p></a></li>
+        </ul>
+    </nav>
+</header>
+<div class="container__projecten ">
+    <h1 class="justify-content-center row py-5">Projecten</h1>
+    <div class="container__projecten__item-1 row">
+        <img class= "col-xl-3" src="assets/mountains.jpg" alt="mountains">
+        <img class= "col-xl-3" src="assets/wild.jpg" alt="wild">
+        <img class= "col-xl-3" src="assets/man.jpg" alt="man">
+        <div class="row justify-content-center pt-4">
+        <img class= "col-xl-3" src="assets/big-city-life.jpg" alt="big-city-life">
+        <img class= "col-xl-6 watervrouw" src="assets/watervrouw.png" alt="watervrouw">
         </div>
-        <div class="container__projecten__item-2-ontwerpen">
-            <h1>Ontwerpen</h1>
+    </div>
+    <div class="container__projecten__item-2 row">
+        <h1 class="row justify-content-center">Logo's</h1>
+        <div class="container__projecten__item-2-logos row justify-content-center">
+            <img class="col-xl-3" src="assets/jvg-design.png" alt="jvg-design">
+            <img class="col-xl-3" src="assets/logo-apollo.png" alt="apollo-logo">
+            <img class="col-xl-3" src="assets/pxl-logo.jpg" alt="pxl-logo">
+        </div>
+        <div class="container__projecten__item-2-ontwerpen row justify-content-center">
+            <h1 class="row justify-content-center">Ontwerpen</h1>
             <img src="assets/walibi.jpg" alt="walibi">
             <img src="assets/drink.jpg" alt="drink">
         </div>
     </div>
 </div>
+<footer>
+
+</footer>
 </body>
 </html>
