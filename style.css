@@ -37,7 +37,7 @@ nav img{
 /*--- Wie ben ik page ---*/
 
 main h1, main h3, main p{
-    margin: 3rem;
+    padding: 3rem;
 }
 .container__wie-ben-ik{
     padding-top: 12rem;
@@ -66,25 +66,26 @@ margin: 0 auto;
  }
 
 /*--- Projecten ---*/
-
+.container__buildr-wpl2 iframe{
+    width: 75%;
+    border-radius: 25px;
+}
 .container__projecten{
     padding-top: 150px;
-    margin:0 auto;
     text-align: center;
     /*https://www.w3schools.com/css/css3_gradients.asp*/
 }
 .container__projecten__item-1 img{
-    margin: 0 auto;
     width: 25%;
     border-radius: 10px;
 }
+
 .container__projecten__item-2 img{
-    padding: 30px;
     width: 25%;
     border-radius: 10px;
 }
 .container__projecten__item-2-ontwerpen, .container__projecten__item-2-logos{
-    padding: 30px;
+    margin-top: 150px;
 }
 
 /*--- Opdrachten ---*/
@@ -114,10 +115,7 @@ main section article h4{
 main section article ul li,main section article ol li{
     margin-left: 50px;
 }
-::-webkit-scrollbar{
-    display: none;
-    /*https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
-}
+
 
 /*--- Eindreflectie ---*/
 
