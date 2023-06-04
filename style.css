@@ -6,11 +6,12 @@
 }
 nav{
     top: 0;
+    margin: 0 auto;
     background-color: #0a58ca;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    opacity: 0.95;
     width: 100%;
+    opacity: 0.95;
     position: fixed;
 }
 nav ul{
@@ -31,7 +32,7 @@ nav ul li a p:hover{
     color: darkblue;
 }
 nav img{
-     width: 7.5rem;
+     width: 7rem;
     margin: 0 auto;
  }
 
@@ -47,7 +48,7 @@ nav img{
 }
 .container__wie-ben-ik img{
 margin: 0 auto;
-    width: 10rem;
+    width: 20rem;
 }
 .container__wie-ben-ik__item-1 img{
     width: 30%;
@@ -97,7 +98,15 @@ margin: 0 auto;
 .container__opdrachten-wpl-1 h1, h2{
     text-align: center;
 }
-
+.opdrachten-reflectie-seminaries{
+    background-color: #0a58ca;
+    color: white;
+    border-radius: 10px;
+}
+.opdrachten__overig{
+    color: #0a58ca;
+    margin: 0 auto;
+}
 
 /*main section article ul li,main section article ol li{*/
 /*    margin-left: 50px;*/
@@ -110,9 +119,6 @@ margin: 0 auto;
     /*https://www.w3schools.com/css/css3_gradients.asp*/
     margin: 200px 0;
     padding-bottom:150px;
-}
-.container__eindreflectie h1{
-    text-align: center;
 }
 
 /*--- Footer ---*/
