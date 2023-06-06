@@ -53,7 +53,7 @@ margin: 0 auto;
 .container__wie-ben-ik__item-1 img{
     width: 30%;
 }
-.container__wie-ben-ik-andere-info__item-1 img{
+.wie-ben-ik-andere-info__item-1 img{
     width: 75%;
 }
 .container__wie-ben-ik__item-1{
@@ -62,7 +62,7 @@ margin: 0 auto;
     border-radius: 10px;
     padding: 20px;
 }
-.container__wie-ben-ik-info__item, .container__wie-ben-ik-andere-info__item{
+.container__wie-ben-ik-info__item, .wie-ben-ik-andere-info__item{
     padding-top: 50px;
     width: 100%;
  }
@@ -77,16 +77,16 @@ margin: 0 auto;
     text-align: center;
     /*https://www.w3schools.com/css/css3_gradients.asp*/
 }
-.container__projecten__item-1 img{
+.projecten__item-1 img{
     width: 25%;
     border-radius: 10px;
 }
 
-.container__projecten__item-2 img{
+.projecten__item-2 img{
     width: 25%;
     border-radius: 10px;
 }
-.container__projecten__item-2-ontwerpen, .container__projecten__item-2-logos{
+.projecten__item-2-ontwerpen, .projecten__item-2-logos, .projecten__item-2-ontwerpen-instagram-ads{
     margin-top: 150px;
 }
 
@@ -120,7 +120,10 @@ margin: 0 auto;
     margin: 200px 0;
     padding-bottom:150px;
 }
-
+.wpl1, .wpl2{
+    height: 500px;
+    overflow: scroll;
+}
 /*--- Footer ---*/
 .container-fluid__footer{
     background-color: #0a58ca;
