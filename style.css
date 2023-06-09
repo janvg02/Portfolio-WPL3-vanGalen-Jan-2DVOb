@@ -47,7 +47,6 @@ nav img{
     background: radial-gradient(at 60% 40%,#0a58ca,white,white,white);
 }
 .container__wie-ben-ik img{
-margin: 0 auto;
     width: 20rem;
 }
 .container__wie-ben-ik__item-1 img{
@@ -88,6 +87,19 @@ margin: 0 auto;
 }
 .projecten__item-2-ontwerpen, .projecten__item-2-logos, .projecten__item-2-ontwerpen-instagram-ads{
     margin-top: 150px;
+}
+.container__buildr-wpl2 button{
+    background-color: #0a58ca;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+.container__buildr-wpl2 button a{
+    text-decoration: none;
+    color: white;
+}
+.container__buildr-wpl2 button a:hover{
+    color: darkblue;
 }
 
 /*--- Opdrachten ---*/
