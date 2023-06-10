@@ -107,7 +107,7 @@ nav img{
 .container__opdrachten-wpl-1{
     padding-top: 10rem;
 }
-.container__opdrachten-wpl-1 h1, h2{
+.container__opdrachten-wpl-1 h1, .container__opdrachten-wpl-1 h2{
     text-align: center;
 }
 .opdrachten-reflectie-seminaries{
@@ -159,10 +159,22 @@ footer ul li{
     list-style-type: none;
 }
 
-
-
-
-
+/*--- buildr-page ---*/
+.buildr-logo img{
+    width: 250px;
+}
+.container__buildr-info{
+    text-align: center;
+}
+.buildr-website iframe{
+    justify-content: center;
+    width: 75%;
+    border-radius: 10px;
+}
+.buildr-app img{
+    width: 500px;
+    margin-top: 10px;
+}
 /*@media screen and (max-width:820px){*/
 /*    .container__wie-ben-ik,.container__wie-ben-ik-info__item, .container__wie-ben-ik-info__item h3{*/
 /*        margin: 0 ;*/
