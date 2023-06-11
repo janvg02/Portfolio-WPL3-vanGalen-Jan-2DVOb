@@ -7,17 +7,23 @@
 /*--- Navbar (hergebruikt van wpl2) ---*/
 
 
-div.container-fluid-navbar {
+div.navbar-fluid {
     padding-left: 12px;
     padding-right: 12px;
     margin: 0;
 }
 
 .navbar {
-    background-color: #053DFF;
+    background-color: #0a58ca;
     color: white;
     justify-content: space-between;
 
+}
+
+
+.jvg-navbar__logo {
+    height: 5rem;
+    margin: .2rem auto;
 }
 
 .nav-link {
@@ -48,17 +54,12 @@ div.container-fluid-navbar {
     text-align: center;
 }
 
-
-.jvg-navbar__logo {
-    width: 10%;
-}
-
 div #navbarNav.collapse.navbar-collapse {
     justify-content: right;
 }
 
 button.navbar-toggler {
-    color: #053DFF;
+    color: #0a58ca;
     --bs-navbar-toggler-border-color: none;
 }
 
@@ -68,9 +69,15 @@ button.navbar-toggler {
 
 #activenav {
     font-weight: 700;
-    color: #CCCCCC;
     border-bottom: 1px solid #CCCCCC;
 }
+
+.nav-logo_uitlijning{
+    padding-left: 3.5vw;
+}
+
+
+
 .nav-link:focus {
     color: white;
 }
@@ -78,17 +85,18 @@ button.navbar-toggler {
 .nav-link:hover {
     color: white;
 }
-.nav-logo_uitlijning{
-    padding-left: 3.5vw;
-}
+
 .nav-link:active {
     font-weight: 600;
 }
+
+
 @media (max-width: 920px) {
-    .buildr-navbar__logo {
+    .jvg-navbar__logo {
         margin-left: 0;
     }
 }
+
 @media (max-width: 767px) {
     .navbar-collapse {
         position: absolute;
@@ -97,48 +105,64 @@ button.navbar-toggler {
         z-index: 1;
         display: none;
         /*padding: 10px;*/
-        background-color: #053DFF;
+        background-color: #0a58ca;
 
     }
+
+
     .nav-link {
         color: white;
         font-weight: 600;
-        background-color: #053DFF;
+        background-color: #0a58ca;
         padding-right: 35px;
         font-size: 20px;
     }
+
     .nav-link:active {
         background-color: #0939e0;
     }
+
+
     .navbar-collapse.show {
         display: block;
         width: 100%;
         text-align-last: right;
     }
+
     .navbar-nav {
         display: block;
         margin: 0;
         padding: 0;
     }
-    .navbar-nav li {
+
+    .navbar-nav > li {
         display: block;
-        list-style-type: none;
     }
-    .navbar-nav li,.navbar-nav a {
+
+    .navbar-nav > li > a {
         display: block;
-        padding: 1rem 0;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
         text-align: center;
+
     }
+
+
     .jvg-navbar__logo {
+
         margin-left: 0;
     }
-    .navbar div.container-fluid-navbar {
+
+    .navbar div.navbar-fluid {
         padding-left: 12px;
         padding-right: 12px;
     }
+
     #activenav {
         display: none;
     }
+
+
 }
 
 
@@ -169,7 +193,18 @@ button.navbar-toggler {
     padding-top: 50px;
     width: 100%;
  }
-
+@media (max-width:415px){
+    html{
+        width: 400px;
+        margin: 0;
+    }
+    .footer__social-media{
+        display: none;
+    }
+    .container__wie-ben-ik{
+        background-color: transparent;
+    }
+}
 /*--- Projecten ---*/
 .container__buildr-wpl2 iframe{
     width: 75%;
@@ -240,6 +275,9 @@ button.navbar-toggler {
     height: 500px;
     overflow: scroll;
 }
+.wpl2{
+     margin-top:250px ;
+ }
 /*--- Footer ---*/
 .container-fluid__footer{
     background-color: #0a58ca;
