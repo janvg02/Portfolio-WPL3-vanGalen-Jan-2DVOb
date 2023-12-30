@@ -318,4 +318,20 @@ footer ul li{
     margin-top: 10px;
 }
 
+/*--WPL3--*/
+.container__wpl3__main{
+    margin-top: 10%;
+    text-align: center;
+
+}
+.wpl3__heading{
+        color: #0a53be;
+}
+.wpl3__content iframe{
+    width: 50%;
+    border-radius: 25px;
+}
+.wpl3__kernkwadranten, .wpl3__individuele-reflectie, .wpl3__pitch, .wpl3__probleemstellingen, .wpl3__tussentijdse-reflectie{
+    margin-top: 10%;
+}
 

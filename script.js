@@ -7,7 +7,7 @@ for (let i = 0; i < AlleImg.length; i++) {
 }
 
 function MouseOver() {
- this.style.transform = "scale(1.3, 1.3)";
+ this.style.transform = "scale(1.2, 1.2)";
  // https://www.w3schools.com/js/js_this.asp#:~:text=In%20JavaScript%2C%20the%20this%20keyword,this%20refers%20to%20the%20object.
 }
 
