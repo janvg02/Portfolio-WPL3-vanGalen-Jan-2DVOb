@@ -331,7 +331,7 @@ footer ul li{
     width: 50%;
     border-radius: 25px;
 }
-.wpl__kernkwadranten, .wpl__individuele-reflectie, .wpl__pitch, .wpl__probleemstellingen, .wpl__tussentijdse-reflectie, .wpl__eindreflectie{
+.wpl__kernkwadranten, .wpl__individuele-reflectie, .wpl__pitch, .wpl__probleemstellingen, .wpl__tussentijdse-reflectie, .wpl__eindreflectie, .wpl__x-factor{
     margin-top: 10%;
 }
 
@@ -355,6 +355,6 @@ footer ul li{
 }
 
 .wpl__onstage_items{
-    margin-top: 5%;
+    margin-top: 5;
 }
 
