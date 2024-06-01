@@ -354,7 +354,8 @@ footer ul li{
     margin-top: 10%;
 }
 
-.wpl__onstage_items{
-    margin-top: 5;
+.wpl__onstage_items, .onstage_item{
+    margin-top: 5%;
 }
+
 
