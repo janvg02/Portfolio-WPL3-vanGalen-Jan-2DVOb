@@ -357,5 +357,8 @@ footer ul li{
 .wpl__onstage_items, .onstage_item{
     margin-top: 5%;
 }
+.onstage_item img{
+    width: 50%;
+}
 
 
